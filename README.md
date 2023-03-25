@@ -14,10 +14,10 @@ In order to get a final hyperspectral image from all your measurements, I usuall
 + Load one OPTICAL image at a specific wavelength
   + CORRECT the measurement artifacts (plane leveling, align row, etc ...)
   + Use plane level as reference
-  + ADD the corrected image to the spectral dataset
+  + ADD the corrected image to the Spectral dataset (Optics)
 + Load the TOPOGRAPHY image (AFM image) corresponding to the same measurement
   + CORRECT the main artifacts of the AFM image (You don't have to be superprecise, but it helps! ;D)
-  + ADD the corrected to Topography dataset
+  + ADD the corrected to Topography dataset (Topo)
   
 ❗(at the moment the app recognizes the wavelength from filenames, thus you MUST add _xxxx_cm-1 to the filename)❗
 

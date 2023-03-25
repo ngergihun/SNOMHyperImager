@@ -25,8 +25,12 @@ After all the necessary data is added to the Topography and Optics dataset, you 
 - New window will appear
 
 The subapp helps you to correct the drifts between images and extract the spectrum from specific regions of the measurement area:
-+ Use the `Align maps Panel` for supervised correction of the drifts
++ Use the `Align maps` Panel for supervised correction of the drifts
 + Use `Extract spectrum` Panel
++ Save your final data:
+  + Save the selected Spectrum to MATLAB workspace or to text file
+  + Save the whole aligned Hyperspectral image for external use (Currently: to text file with [CytoSpec XYZ1 format](https://www.cytospec.com/ftir.php))
+  + Save the result as a Project (you can load it back later)
 
 
 

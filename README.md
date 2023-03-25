@@ -6,6 +6,10 @@ The intent behind the creation of this MATLAB application is to speed up the dat
 
 ❗❗❗**The application is still under active development. Serious bugs can be present. New features and bugfixes will be introduced as soon as possible.** ❗❗❗
 
++ ⚠️The current version is specifically written for filestructures of NeaSpec - NeaSNOM/NeasSCOPE microscopes⚠️
++ ⚠️Some functions use the nameing conventions of NeaSpec files also⚠️
++ ⚠️For wavelength recognition, you have to add _XXXX_cm-1 to the filename⚠️
+
 ## The principles
 
 Let's suppose that you have chosen an interesting area on your sample and you want to have the optical spectrum through your spectral range of interest. Thus, you measured a new SNOM image at every desired wavelength.

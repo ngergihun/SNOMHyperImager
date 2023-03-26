@@ -5,15 +5,15 @@ if isempty(regexp(filename,'_cm-1')) == 0
 %-cm-1
 elseif isempty(regexp(filename,'-cm-1')) == 0
     indxstart = regexp(filename,'-cm-1');
-%cm_1
-elseif isempty(regexp(filename,'cm_1')) == 0
-    indxstart = regexp(filename,'cm_1');
 %_cm_1
 elseif isempty(regexp(filename,'_cm_1')) == 0
     indxstart = regexp(filename,'_cm_1');
 %-cm_1
 elseif isempty(regexp(filename,'-cm_1')) == 0
     indxstart = regexp(filename,'-cm_1');
+%cm_1
+elseif isempty(regexp(filename,'cm_1')) == 0
+    indxstart = regexp(filename,'cm_1');
 %cm-1
 elseif isempty(regexp(filename,'cm-1')) == 0
     indxstart = regexp(filename,'cm-1');

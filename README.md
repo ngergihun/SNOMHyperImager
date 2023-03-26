@@ -5,7 +5,7 @@
 The intent behind the creation of this MATLAB application is to speed up the data processing of single wavelength images from Scanning Near-field Optical Microscopy (SNOM) experiments.
 
 Usage:
-1. Download all to files to a folder
+1. Download all the files to a folder
 2. Launch MATLAB and add this folder to path or just navigate to it using matlab folder browser
 3. Launch the main application: `SNOMapp.mlapp` (the other subapps cannot work sandalone without SNOMapp.mlapp)
 

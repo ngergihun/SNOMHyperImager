@@ -31,6 +31,7 @@ In order to get a final hyperspectral image from all your measurements, I usuall
   + ❗(at the moment the app recognizes the wavelength from filenames, thus you MUST add _xxxx_cm-1 to the filename)❗
 + After all the necessary data is added to the Topography and Optics dataset, you can proceed to `HyperSpectral Processing`
   + New window will appear
+
 The subapp helps you to correct the drifts between images and extract the spectrum from specific regions of the measurement area:
 + Use the `Align maps` Panel for supervised correction of the drifts
 + Use `Extract spectrum` Panel

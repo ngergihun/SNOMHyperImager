@@ -12,7 +12,11 @@ while ~contains(linestring,'Version:')
         wstring = ct{3};
         idx = strfind(wstring,',');
         wstring(idx) = [];
-        wn = str2double(wstring);
+        if strcmp(ct{2},'[µm]')
+            wn = round(10000/str2double(wstring));
+        else
+            wn = str2double(wstring);
+        end
     end
 end
 

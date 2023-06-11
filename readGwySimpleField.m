@@ -7,13 +7,20 @@ DataStruct = struct;
 MagicLine = fgetl(fid);
 headerSize = length(MagicLine);
 
-for i=1:16
+% for i=1:16
+fieldname = "";
+while fieldname ~= "Neaspec_WavenumberScaling"
     linestring = fgetl(fid);
     headerSize = headerSize + length(linestring);
     indx = strfind(linestring,'=');
     fieldname = linestring(1:indx-1);
     value = linestring(indx+1:end);
-    DataStruct.(fieldname) = str2double(value);
+    val = str2double(value);
+    if isnan(val)
+        DataStruct.(fieldname) = value;
+    else
+        DataStruct.(fieldname) = val;
+    end
 end
 
 HeaderEnd = ftell(fid);

@@ -17912,8 +17912,8 @@ map = [0	0	0
         1	0	0];
 
 case { 'NEA00' }
-descriptorname = 'neaphase_default';
-description = 'Default neaspec phase colormap';
+descriptorname = 'neaphase_0';
+description = '0 shifted neaspec phase colormap';
 map = [1	0	0
 1	0.0158730158730159	0.0158730158730159
 1	0.0317460317460317	0.0317460317460317
@@ -18172,8 +18172,8 @@ map = [1	0	0
 1	0	0];
 
 case { 'NEA45' }
-descriptorname = 'neaphase_default';
-description = 'Default neaspec phase colormap';
+descriptorname = 'neaphase_45';
+description = '45 shifted neaspec phase colormap';
 map = [0.500000000000000	0	0
 0.516666666666667	0	0
 0.533333333333333	0	0
@@ -18423,8 +18423,8 @@ map = [0.500000000000000	0	0
 0.320384615384615	0	0];
 
 case { 'NEA90' }
-descriptorname = 'neaphase_default';
-description = 'Default neaspec phase colormap';
+descriptorname = 'neaphase_90';
+description = '90 shifted neaspec phase colormap';
 map = [0	0	0
 0.0163934426229508	0	0
 0.0327868852459016	0	0
@@ -18683,8 +18683,8 @@ map = [0	0	0
 0	0	0];
 
 case { 'NEA180' }
-descriptorname = 'neaphase_default';
-description = 'Default neaspec phase colormap';
+descriptorname = 'neaphase_180';
+description = '180 shifted neaspec phase colormap';
 map = [0	0	1
 0	0	0.983606557377049
 0	0	0.967213114754098
@@ -18943,8 +18943,8 @@ map = [0	0	1
 0	0	1];
 
 case { 'NEA270' }
-descriptorname = 'neaphase_default';
-description = 'Default neaspec phase colormap';
+descriptorname = 'neaphase_270';
+description = '270 shifted neaspec phase colormap';
 map = [0.901639344262295	0.901639344262295	1
 0.885245901639344	0.885245901639344	1
 0.868852459016393	0.868852459016393	1
